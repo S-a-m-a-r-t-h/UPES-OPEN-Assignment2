@@ -44,7 +44,7 @@ def king(position):
 	    print('{}{}'.format(init_number,convertToAlphabet(init_alphabet+1)))
 	if(init_alphabet-1>=101):
 	    print('{}{}'.format(init_number,convertToAlphabet(init_alphabet-1)))
-# Definition of Queen Function Starts                 
+                 
 def queen(position):
     init_num = position[0]
     init_alphabet = position[1]
